@@ -1,0 +1,53 @@
+/* This is a stylesheet for BasicCSS.html*/
+
+    h1{
+        color: red;
+        background-color: blue;
+    }
+
+    h2{
+    color: rgb(154, 29, 29);
+    background-color: rgb(26, 66, 150); 
+    }
+
+    h3{
+        color: rgb(205, 67, 67);
+        background-color: rgb(51, 92, 179); 
+    }
+
+    h4{
+        color: rgb(233, 88, 88);
+        background-color: rgb(68, 107, 192); 
+    }
+
+  .specialp{
+    color: rgb(240, 0, 0);
+    background-color: lightblue; 
+  }
+
+
+    .specialid{
+    color: red;
+    background-color: blue;
+    }
+
+    #divexample{
+        background-color: rgb(255, 255, 0);
+    }
+
+    .spanstyle{
+        color:black;
+    }
+
+
+a {
+  color: #ff0000;
+}
+
+a:visited {
+  color: #21ef0a;
+}
+
+a:hover {
+  color: #fdec00;
+}        
