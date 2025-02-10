@@ -1,0 +1,32 @@
+
+  .specialp{
+    color: rgb(240, 0, 0);
+    background-color: lightblue; 
+  }
+
+
+    .specialid{
+    color: red;
+    background-color: blue;
+    }
+
+    #divexample{
+        background-color: rgb(255, 255, 0);
+    }
+
+    .spanstyle{
+        color:black;
+    }
+
+
+a {
+  color: #ff0000;
+}
+
+a:visited {
+  color: #21ef0a;
+}
+
+a:hover {
+  color: #fdec00;
+}        
