@@ -1,0 +1,93 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 2px solid black;
+}
+
+body {
+    background-image: url(a5bg.png)
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+    Text-decoration: bold;
+}
+
+.main a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.textj {
+    text-align: justify;
+    font-weight: bold;
+}
+
+.footer {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+
+
+}
+
+nav li {
+    border: 1px solid black;
+    width: 150px;
+    margin: 10px;
+    background-color: blue;
+    color: white;
+    display: inline-block;
+    
+}
+
+nav li a {
+    color: rgb(254, 254, 254);
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+nav li a:hover {
+    background-color: rgb(52, 100, 211);
+    text-decoration: none;
+    padding: 10px;
+}
+
+.topborder {
+    border-top:1px solid white;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    background-color: white;
+    padding: 10px;
+    margin: 20px;
+}
+
+.mline {
+    border-top:5px solid white;
+    border-bottom: 5px solid white;
+    border-left: 5px solid white;
+    border-right: 5px solid white;
+    background-color: white;
+    padding: 10px;
+    margin: 20px;
+}
+
+.fline {
+    border-top:1px solid white;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    background-color: rgb(8, 8, 89);
+    padding: 10px;
+    margin: 20px;
+}
