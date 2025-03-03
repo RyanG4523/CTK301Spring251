@@ -1,0 +1,95 @@
+body {
+background-image: url(rocks.jpg)
+  }
+  
+#wrapper{
+  grid-template-columns: repeat(12, 12fr);
+  grid-column-gap: 1em;
+  border: 5px solid;
+  border-color: rgb(36, 36, 145);
+  grid-template-columns: repeat(12, 1fr);
+  display: grid;
+  width: 950px;
+  margin: 1em auto;
+  padding: 0;
+  background-color: white;
+}
+
+  header {
+    color: white;
+    background-image:linear-gradient(rgb(0, 123, 255), blue); 
+    grid-column: span 12;
+    padding-left: 1em;
+  }
+  
+  h2 {
+border-bottom: 4px solid blue;
+  }
+
+  nav { 
+display: inline-block;
+grid-column: span 12;
+   }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 2px ;
+    padding: 3px ;
+    grid-column: span 12;
+  }
+  
+  nav li {
+    display: inline-block;
+    grid-column: span 12;
+    width: 200px;
+    text-align: center;
+    border: 3px solid black;
+  }
+  
+  nav li a {
+    display: block;
+    background-image:linear-gradient(rgb(0, 123, 255), blue) ;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding: 1em;
+    color: white;
+    text-decoration: none;
+  }
+  
+  main {
+    grid-column: span 7;
+    margin: 3px;
+  }
+
+  p a {
+    color: rgb(13, 81, 13);
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  main img {
+    float: right;
+    padding-right: 1em;
+  }
+  
+  aside {
+    font-size: 24px;
+    grid-column: span 5;
+    background-color: rgb(74, 107, 174);
+    padding: 0 1em 1em 1em;
+    margin: 5px;
+    color: white;
+  }
+  
+  footer {
+    background-color: red;
+    grid-column: span 12;
+    padding: 1em;
+    color: white;
+    border-top: 5px solid blue;
+  }
+
+  .f {
+font-style: italic;
+  }
+  
